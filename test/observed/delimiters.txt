@@ -1,0 +1,5 @@
+Plbls: Year,Day,1,2,3,4,7,6,9,8,10,12,13,14,15 
+Psplt: 1,5,8,13,18,23,28,33,38,43,48,53,58,63,68,73
+Qlbls: RCH,GIS,MON,AREAkm2,FLOW_INcms,FLOW_OUTcms
+Qsplt: 6,12,21,27,39,51,63
+RCH  : 3
