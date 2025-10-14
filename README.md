@@ -19,10 +19,12 @@ REQUIREMENTS
 ------------
 Operating System: Windows
 
-Software Required:
+Software Required (Both files must be in the same folder):
+
     - BaCo.exe
-    - sk4d.dll 
-      (Both files must be in the same folder)
+    
+    - sk4d.dll
+      
 
 Input Data Required:
 1. The SWAT output directory (TxtInOut folder).
@@ -30,14 +32,22 @@ Input Data Required:
    - The first column must be named "DATE" and contain consecutive numeric dates.
    - The following columns must contain observed discharge data, with each column named after the subbasin number (e.g., 1, 5, etc.).
 
-Example:
-DATE	1	5
-37622	3.030	1.948
-37623	3.596	1.334
-37624	3.681	1.000
-37625	2.682	0.852
-37626	3.030	0.767
-37627	2.517	0.714
+    Example:
+
+        DATE	1	5
+
+        37622	3.030	1.948
+
+        37623	3.596	1.334
+
+        37624	3.681	1.000
+
+        37625	2.682	0.852
+
+        37626	3.030	0.767
+
+        37627	2.517	0.714
+
 
 3. A folder named “output” (or similar) where the tool will store generated result files.
 
