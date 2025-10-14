@@ -22,7 +22,6 @@ Operating System: Windows
 Software Required (Both files must be in the same folder):
 
     - BaCo.exe
-    
     - sk4d.dll
       
 
@@ -35,17 +34,11 @@ Input Data Required:
     Example:
 
         DATE	1	5
-
         37622	3.030	1.948
-
         37623	3.596	1.334
-
         37624	3.681	1.000
-
         37625	2.682	0.852
-
         37626	3.030	0.767
-
         37627	2.517	0.714
 
 
@@ -61,9 +54,7 @@ INSTRUCTIONS FOR USE
      - Under the “MODEL” section:
        
        • Click the “SWAT Folder” button and select the main SWAT output folder (TxtInOut).
-       
        • Click “Obs. Streamflow” and select the text file containing observed discharge data.
-       
        • Click “reAnalysis Results” and choose (or create) an output folder where results will be saved.
        
 
@@ -71,7 +62,6 @@ INSTRUCTIONS FOR USE
      - In the “Alpha” and “Beta” sections, define:
        
          • The minimum and maximum range values.
-       
          • The step size for each parameter.
        
      - Set the desired value for the PBT (precipitation balance threshold).
@@ -80,7 +70,6 @@ INSTRUCTIONS FOR USE
 4.  MODEL EXECUTION
    
      - In the “REACH” panel, select the subbasin (reach) for which observed data are available.
-   
      - Press the green circle to start the optimization process.
        
 
@@ -99,9 +88,7 @@ During the optimization, BaCo displays real-time monitoring of results through f
    Displays performance indicators per iteration:
    
    - PBIAS (yellow dots)
-     
    - NSE (red line)
-     
    - KGE (black line)
      
    allowing evaluation of model improvement over time.
@@ -122,9 +109,7 @@ OUTPUT FILES
 ------------
 The output folder will contain:
 
-- Updated precipitation files.
-  
-- Performance metrics summary.
-  
-- output.rch file
+    - Updated precipitation files.
+    - Performance metrics summary.
+    - output.rch file
 ------------
