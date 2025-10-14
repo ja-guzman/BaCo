@@ -1,19 +1,19 @@
-============================================================================================================================================================================================
+============
 A Stepwise Back-Correction Function for Precipitation Representation on Hydrologic Models
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------
 A precipitation Back Correction for SWAT - BaCo Tool v1.0
-============================================================================================================================================================================================
+============
 Authors : Dany A. Hernández, Jorge A. Guzmán, Sandra R. Villamizar, Maria L. Chu, Camila Ribeiro, Carlos R. de Mello
 Date    : October 2025
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------
 DESCRIPTION
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------
 BaCo is an optimization tool designed to adjust precipitation representation in hydrological models based on simulated and observed streamflow. The methodology employs a stepwise, nonlinear correction function that systematically improves precipitation inputs while respecting the mass-conservation constraints of rainfall. It provides a means to address spatial and local uncertainty in precipitation data representation within SWAT or similar models.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------
 REQUIREMENTS
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------
 Operating System: Windows
 
 Software Required:
@@ -38,9 +38,9 @@ DATE	1	5
 
 3. A folder named “output” (or similar) where the tool will store generated result files.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------
 INSTRUCTIONS FOR USE
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------
 
 1.  Launch BaCo.exe.
 
@@ -60,9 +60,9 @@ INSTRUCTIONS FOR USE
      - In the “REACH” panel, select the subbasin (reach) for which observed data are available.
      - Press the green circle to start the optimization process.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------
 RESULTS AND VISUALIZATION
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------
 During the optimization, BaCo displays real-time monitoring of results through four main visual outputs:
 
 1. Theoretical Plot
@@ -81,9 +81,9 @@ During the optimization, BaCo displays real-time monitoring of results through f
 4. Streamflow Plot 
    Compares observed (black line) and simulated (orange line) streamflow series, highlighting the progressive adjustment achieved by the model.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------
 OUTPUT FILES
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------
 The output folder will contain:
 - Updated precipitation files.
 - Performance metrics summary.
