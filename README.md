@@ -1,7 +1,11 @@
 ============
+
 A Stepwise Back-Correction Function for Precipitation Representation on Hydrologic Models
+
 ------------
+
 A precipitation Back Correction for SWAT - BaCo Tool v1.0
+
 ============
 Authors : Dany A. Hernández, Jorge A. Guzmán, Sandra R. Villamizar, Maria L. Chu, Camila Ribeiro, Carlos R. de Mello
 Date    : October 2025
