@@ -59,46 +59,72 @@ INSTRUCTIONS FOR USE
 
 2.  INPUT DATA CONFIGURATION
      - Under the “MODEL” section:
+       
        • Click the “SWAT Folder” button and select the main SWAT output folder (TxtInOut).
+       
        • Click “Obs. Streamflow” and select the text file containing observed discharge data.
+       
        • Click “reAnalysis Results” and choose (or create) an output folder where results will be saved.
+       
 
 3.  PARAMETER CONFIGURATION
      - In the “Alpha” and “Beta” sections, define:
+       
          • The minimum and maximum range values.
+       
          • The step size for each parameter.
+       
      - Set the desired value for the PBT (precipitation balance threshold).
+       
 
 4.  MODEL EXECUTION
+   
      - In the “REACH” panel, select the subbasin (reach) for which observed data are available.
+   
      - Press the green circle to start the optimization process.
+       
 
 ------------
 RESULTS AND VISUALIZATION
 ------------
+
 During the optimization, BaCo displays real-time monitoring of results through four main visual outputs:
 
 1. Theoretical Plot
+   
    Shows a scatterplot of simulated vs. observed discharge (green points) and the theoretical 1:1 line.
 
-2. Metrics Plot
-   Displays performance indicators per iteration:  
-   - PBIAS (yellow dots)  
-   - NSE (red line)  
-   - KGE (black line)  
+3. Metrics Plot
+   
+   Displays performance indicators per iteration:
+   
+   - PBIAS (yellow dots)
+     
+   - NSE (red line)
+     
+   - KGE (black line)
+     
    allowing evaluation of model improvement over time.
+   
 
-3. Precipitation Plot
+5. Precipitation Plot
+   
    Shows the temporal variability of the corrected precipitation.
+   
 
-4. Streamflow Plot 
+7. Streamflow Plot
+   
    Compares observed (black line) and simulated (orange line) streamflow series, highlighting the progressive adjustment achieved by the model.
+   
 
 ------------
 OUTPUT FILES
 ------------
 The output folder will contain:
+
 - Updated precipitation files.
+  
 - Performance metrics summary.
+  
 - output.rch file
 ------------
