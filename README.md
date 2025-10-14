@@ -7,12 +7,14 @@ A Stepwise Back-Correction Function for Precipitation Representation on Hydrolog
 A precipitation Back Correction for SWAT - BaCo Tool v1.0
 
 ============
+
 Authors : Dany A. Hernández, Jorge A. Guzmán, Sandra R. Villamizar, Maria L. Chu, Camila Ribeiro, Carlos R. de Mello
 Date    : October 2025
 
 ------------
 DESCRIPTION
 ------------
+
 BaCo is an optimization tool designed to adjust precipitation representation in hydrological models based on simulated and observed streamflow. The methodology employs a stepwise, nonlinear correction function that systematically improves precipitation inputs while respecting the mass-conservation constraints of rainfall. It provides a means to address spatial and local uncertainty in precipitation data representation within SWAT or similar models.
 
 ------------
