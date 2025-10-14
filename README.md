@@ -1,6 +1,6 @@
 ------------
 
-A Stepwise Back-Correction Function for Precipitation Representation on Hydrologic Models
+A STEPWISE BACK-CORRECTION FUNCTION FOR PRECIPITATION REPRESENTATION ON HIDROLOGIC MODELS
 
 ------------
 
