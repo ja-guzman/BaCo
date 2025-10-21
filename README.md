@@ -19,7 +19,7 @@ REQUIREMENTS
 ------------
 Operating System: Windows
 
-Software Required (Both files must be in the same folder):
+Software Required (Download files from the folder BaCo/exe and place both files in the same folder):
 
     - BaCo.exe
     - sk4d.dll
